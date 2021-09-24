@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev:next": "next dev",
+    "dev:aspida": "aspida --watch",
+    "build": "aspida && next build"
   },
   "dependencies": {
     "@aspida/axios": "^1.7.1",
